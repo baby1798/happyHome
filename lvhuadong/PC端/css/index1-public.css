@@ -1,0 +1,84 @@
+img{border: 0px;}
+ul{
+	margin: 0px;
+}
+#content{
+	width:100%;
+	height:auto;/*宝宝们你们的内容高度值在“各自的子页”自己设定，并将其改成"auto"*/
+	position:absolute;
+	top:100px;
+}
+#content>a>img{
+	width: 100%;
+	height: 494;
+}
+/*中间部分*/
+#content>#center1{
+	width: 1100px;
+	height: 300px;
+	position: relative;
+	top: 50px;
+}
+/*热门新房*/
+#center1>.rmxf{
+	width: 800px;
+	height: 300px;
+	float: left;
+}
+/*报名动态*/
+#center1>.bmdt{
+	width: 280px;
+	height: 280px;
+	float: right;
+	position: relative;
+}
+#center1>.bmdt>#show{
+	width: 280px;
+	height: 220px;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+#center1>.bmdt>#show>#content_img{
+	width: 280px;
+	height: 220px;
+	position: absolute;
+
+}
+#center1>.bmdt>#content_img>img{
+	width:280px;
+	height: 500px;
+}
+#center2{
+	position: relative;
+	top: 60px;
+}
+#center2>img{
+	width: 100%;
+	height: 387px;
+}
+#center3{
+	width: 1100px;
+	height: 500px;
+	position: relative;
+	top: 100px;
+}
+#center3>.eshf{
+	width: 800px;
+	height: 500px;
+	float: left;
+
+}
+#center3>.jjrapp{
+	width: 280px;
+	height: 300px;
+	float: right;
+}
+#footer{
+	width:100%;
+	height:240px;
+	position:absolute;
+	top:1700px;/*并设定top值在“各自的子页”大家不要弄错吆！！*/
+	left:0px;
+	background: #fff;
+}

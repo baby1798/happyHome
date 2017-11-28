@@ -1,0 +1,9 @@
+//切换效果
+$(document).ready(function(){
+				$("#conTop").children("a").click(function(index){
+					$(this).attr("class","select");
+					$(this).siblings().attr("class","");
+					$("#conLeft").children("ul:eq("+$(this).index()+")").attr("class","show");
+					$("#conLeft").children("ul:eq("+$(this).index()+")").siblings("ul").attr("class","");
+				})
+			})

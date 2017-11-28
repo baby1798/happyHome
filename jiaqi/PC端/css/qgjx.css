@@ -1,0 +1,121 @@
+#nav{
+	border-bottom:1px solid #ccc;
+}
+#content div.cont_left{
+	width:850px;
+	height:auto;
+	float:left;
+	position:relative;
+}
+#content div.cont_left div{
+	width:850px;
+	height:170px;
+	border-bottom:#ccc solid 1px;
+	position:relative;
+	margin-bottom:30px;
+}
+#content div.cont_left div div.contl_div{
+	width:280px;
+	height:140px;
+	position:relative;
+	float:left;
+	margin:0px;
+	left:0px;
+}
+#content div.cont_left div div.contl_div:hover{
+	cursor:pointer;
+}
+#content div.cont_left div div.contl_div img{
+	width:280px;
+	height:140px;
+	position:absolute;
+}
+#content div.cont_left div div.contl_div p{
+	width:280px;
+	height:20px;
+	bottom:0px;
+	color:#fafafa;
+	font-size:14px;
+	line-height:20px;
+	background:rgba(250,134,3,0.8);
+	position:absolute;
+}
+#content div.cont_left div p{
+	margin-left:10px;
+	float:left;
+	width:560px;
+	margin-bottom:20px;
+	text-align:left;
+}
+#content div.cont_left div p.contl_p span:first-child{
+	font-size:18px;
+	cursor:pointer;
+}
+#content div.cont_left div p.contl_p span:last-child{
+	float:right;
+	color:#f98603;
+}
+#content div.cont_left div p.contl_p span:last-child b{
+	font-size:20px;
+}
+#content div.cont_left div p.contl_p2{
+	color:#aaa;
+}
+#content div.cont_left div p.contl_p3{
+	color:#ccc;
+	font-size:14px;
+}
+#content div.cont_left div p.contl_p4{
+	font-size:14px;
+	color:#666;
+}
+#content div.cont_left div p.contl_p4 span{
+	font-family:wingdings;
+	font-size:18px;
+}
+#content div.cont_left div p.contl_p4 span:last-child{
+	font-family:webdings;
+}
+#content div.cont_left div img.contl_icon{
+	width:30px;
+	height:30px;
+	position:absolute;
+	right:0px;
+	bottom:30px;
+}
+#content div.cont_right{
+	width:300px;
+	height:auto;
+	float:right;
+}
+#content div.cont_right ul{
+	list-style-type:none;
+}
+#content div.cont_right ul li:first-child{
+	font-size:18px;
+	border-bottom:2px solid #aaa;
+	height:30px;
+	/*line-height:30px;*/
+}
+#content div.cont_right ul li{
+	width:300px;
+	height:80px;
+	border-bottom:#aaa solid 1px;
+	margin-bottom:15px;
+}
+#content div.cont_right ul li img{
+	width:120px;
+	height:60px;
+	float:left;
+	margin-right:10px;
+}
+#content div.cont_right ul li p{
+	width:170px;
+	height:20px;
+	font-size:16px;
+	overflow:hidden;
+}
+#content div.cont_right ul li span{
+	font-size:12px;
+	color:#aaa;
+}

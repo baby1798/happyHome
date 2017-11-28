@@ -1,0 +1,50 @@
+
+#content{
+	width:100%;
+	height:800px;/*宝宝们你们的内容高度值在“各自的子页”自己设定，并将其改成"auto"*/
+	position:absolute;
+	top:100px;
+}
+#content .co_d1{
+	background: url(../img/yjmf-bg.jpg)no-repeat;
+	width: 1200px;
+	height: 700px;
+}
+#content .co_d1 #bg{
+	width: 1000px;
+	height: 600px;
+	position: absolute;
+	background: #fff;
+	margin-left: 100px;
+	top: 50px;
+}
+#content table{
+	width: 900px;
+	height: 600px;
+
+}
+#content table #name,#content table #tel{
+	height: 30px;
+	color:#ccc;
+}
+#content table select{
+	width: 300px;
+	height: 30px;
+}
+#content th{
+	border-bottom: solid 2px #ddd;
+	text-align: left;
+	font-size: 20px;
+	color: #333;
+}
+#content td{
+	text-align: left;
+}
+#footer{
+	width:100%;
+	height:240px;
+	position:absolute;
+	top:900px;/*并设定top值在“各自的子页”大家不要弄错吆！！*/
+	left:0px;
+	background: #fff;
+}

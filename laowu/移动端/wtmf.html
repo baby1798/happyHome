@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/wtmf.css">
+  <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+</head>
+<body>
+	<div id="header"><a href="#"><</a><span>委托卖房</span></div>
+	<div id="banner"><img src="img/wtmf1.jpg"></div>
+	<div id="center1"><p></p><h3>请将您的出售需求告知小秘</h3>
+        <ul>
+            <li><span class="center1_s1">小区名称：</span><input type="text" id="xq" placeholder="请选择"><span  class="center1_s2"></span></li>
+            <li><span class="center1_s1">户&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：</span><input type="text" id="hx" placeholder="请选择"><span class="center1_s2"></span></li>
+            <li><span class="center1_s1">朝&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;向：</span><input type="text" id="cx" placeholder="请选择"><span class="center1_s2"></span></li>
+            <li><span class="center1_s1">所在楼层：</span><input type="text" id="floor" placeholder="请填写"><span class="center1_s2"></span></li>
+            <li><span class="center1_s1">面&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;积：</span><input type="text" id="mj" placeholder="请填写"><span class="center1_s2"></span></li>
+            <li><span class="center1_s1">期望价格：</span><input type="text" id="qwjg" placeholder="请填写"><span class="center1_s2"></span></li>
+            <li><span class="center1_s1">您的称谓：</span><input type="text" id="name" placeholder="请填写"><span class="center1_s2"></span></li>
+            <li><span class="center1_s1">您的电话：</span><input type="text" id="tel" placeholder="请填写"><span class="center1_s2"></span></li>
+            <li style="border:0;">房源照片：<span style="color:#888;">（共可以上传4张照片）</span><br><a href="javascript:;"><img src="img/wtmf2.jpg" style="width:40%;margin-top:4%;"></a></li>
+        </ul>       
+	</div>
+	<button name="but" type="submit" value="1">委托小秘帮您卖房</button>
+	<div id="center2">
+        <ul>
+           <li><img src="img/wtmf3.jpg"><p class="center2_p">-省心-</p><p>无需费心找客，全城客源为您匹配</p></li>
+           <li><img src="img/wtmf4.jpg"><p class="center2_p">-称心-</p><p>无需烦心砍价，理想价格快速成交</p></li>
+           <li><img src="img/wtmf5.jpg"><p class="center2_p">-安心-</p><p>交易过程透明，资金安全多重保障</p></li>
+           <li><img src="img/wtmf6.jpg"><p class="center2_p">-贴心-</p><p>卖房秘书帮忙，签约办证全程协助</p></li>
+           <li><img src="img/wtmf7.jpg"><p class="center2_p">-舒心-</p><p>专业金融服务，快速变现足额回款</p></li>
+        </ul>
+	</div>
+	<div id="center3" style="display:none;">
+        <p><a href="wtmf.html"><</a><span>选择小区</span></p>
+        <p id="center3_p"><input type="text" id="xq1" placeholder="请输入小区关键字"><img src="img/wtmf8.jpg"></p>
+        <ul>
+           <li><a href="#">天诚花园</a></li>
+           <li><a href="#">香格里花园</a></li>
+           <li><a href="#">天诚花园</a></li>
+           <li><a href="#">京华奥园</a></li>
+           <li><a href="#">广发苑旁邮局宿舍</a></li>
+           <li><a href="#">听海居单身公寓</a></li> 
+           <li><a href="#">骏成苑</a></li> 
+           <li><a href="#">兰埔路</a></li> 
+           <li><a href="#">悦安雅苑</a></li> 
+           <li><a href="#">乐苑</a></li> 
+           <li><a href="#">海韵阁</a></li>
+           <li><a href="#">山景花园</a></li>
+        </ul>
+	</div>
+	<script type="text/javascript">
+     $(document).ready(function(){
+       $("#center1").children("ul").children("li").click(function(){
+         $("#center3").animate({"left":"0px"},1000);
+         $("#center3").attr("style","display:block");
+         $("#header").attr("style","display:none");
+         $("#banner").attr("style","display:none");
+         $("#center1").attr("style","display:none");
+         $("#center2").attr("style","display:none");
+         $("button").attr("style","display:none");
+       })
+     })
+  </script>
+</body>
+</html>

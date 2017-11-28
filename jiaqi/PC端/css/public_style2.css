@@ -1,0 +1,92 @@
+
+#nav>#na_a1{
+	display: block;
+    width:50px;
+    height:30px;
+    line-height: 30px;
+    position:absolute;
+    left:260px;
+    top:25px;
+    text-decoration:none;
+    background: #fff;
+    color:#333;
+    font-size:15px;
+    border-left:solid #aaa 1px;
+}
+#nav>.na_sp1{
+	display: block;
+    height:0px;
+    border-left:solid 5px #fff;
+    border-right:solid 5px #fff;
+    border-top:solid 5px #444;
+    position:absolute;
+    left:310px;
+    top:36px;
+}
+#nav>#na_u1>li>a.u1_a1{
+	width:30px;	
+	text-align:center;
+}
+#nav>#na_u1>li>a{
+	padding-top:23px;
+	border-top:solid 5px #fff;
+	text-align:center;
+}
+#nav>#na_u1>li>a:hover{
+	border-top:solid 5px #ff5f15;
+	color:#ff5f15;
+}
+#nav>#d1{
+    width:370px;
+    height:50px;
+    line-height: 50px;
+    position:absolute;
+    top:20px;
+    right:110px;
+    background: #fff;
+    border:solid #ccc 1px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+#nav>#d1>.xl{
+    border-left:solid 5px #fff;
+    border-right:solid 5px #fff;
+    border-top:solid 5px #444;
+    position: absolute;
+    right:321px;
+    top:23px;
+}
+#nav>#d1>.newhome{
+    padding-right:14px;
+    display: inline-block;
+    width:40px;
+    height:30px;
+    line-height:30px;
+    color:#666;
+    font-size:15px;
+    text-align:center;
+    background: #fff;
+    border-right:solid 1px #ccc;
+}
+#nav>#d1>.inp{
+    border:0px;
+    font-size:15px;
+    background: #fff;
+    height:20px;
+}
+#nav>#d1>.find{
+    text-decoration: none;
+    display: inline-block;
+    text-align:center;
+    width:92px;
+    height:52px;
+    line-height:52px;
+    background: #ff5f15;
+    color:#fff;
+    font-size: 14px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    position: absolute;
+    right:0px;
+    top:0px;
+}

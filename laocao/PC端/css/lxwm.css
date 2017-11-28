@@ -1,0 +1,92 @@
+body{
+	background: #f0f0f0;
+	font-family: Arial, Helvetica, sans-serif, SimSun;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333;
+}
+#top{
+	width:100%;
+	height:120px;
+	text-align:center;
+}
+#top>.a1>img{
+	width:120px;
+	height:90px;
+	border:0px;
+	padding:0px;
+
+}
+#content{
+	width:900px;
+	height:1050px;
+	position:absolute;
+	left:50%;
+	margin-left:-450px;
+	background: #fff;
+}
+#content>#tex{
+	width:900px;
+	height:80px;
+	position:relative;
+	top:20px;
+}
+#content>#tex>.p1{
+	width:800px;
+	height:40px;
+	line-height:40px;
+	margin-left:50px;
+	border-bottom:solid #ccc 2px;
+
+}
+#content>#tex>.p1>a{
+	text-decoration: none;
+	display: inline-block;
+	width:150px;
+	height:40px;
+	line-height:40px;
+	color:#333;
+	font-size:21px;
+	text-align:center;
+}
+#content>#tex>.p1>a.one{
+	border-bottom:solid #ff5f15 2px;
+	color:#ff5f15;
+}
+#content #center{
+	width: 800px;
+	height: 900px;
+	position: absolute;
+	left: 50px;
+}
+#center p{
+	text-indent: 2em;
+}
+#center table{
+	width: 800px;
+	margin-top: 50px;
+	border: 1px solid #ccc;
+	margin-bottom: 50px;
+}
+#center table tr td{
+	height: 37px;
+	width: 630px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+#center table tr td.gery{
+	height: 37px;
+	width: 168px;
+	background-color: #f0f0f0;
+}
+#center img{
+	width: 800px;
+	height: auto;
+}
+#footer{
+	width:100%;
+	height:50px;
+	position:absolute;
+	top:1170px;
+}

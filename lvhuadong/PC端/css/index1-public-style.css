@@ -1,0 +1,241 @@
+/*热门新房开始*/
+#center1>.rmxf>span{
+	margin-left: 30px;
+	float: left;
+	width: 200px;
+	height: 20px;
+	display: block;
+	font-size: 18px;
+	color: #f37600;
+	font-weight: bold;
+}
+#center1>.rmxf>a:link,#center1>.rmxf>a:visited{
+	float: right;
+	text-decoration: none;
+	color: #ccc;
+}
+#center1>.rmxf>p{
+	width: 800px;
+	height: 2px;
+	background: #f37600;
+	position: absolute;
+	margin-top: 30px;
+}
+#center1>.rmxf>ul{
+	width: 800px;
+	height: auto;
+	float: left;	
+	margin-left: 0px;
+	display: block;
+	position: absolute;
+	top: 50px;
+}
+#center1>.rmxf>ul>li{
+	width: 248px;
+    height: 230px;
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0px;
+	list-style-type: none;
+	margin-left: 25px;
+	border: solid 1px #ccc;
+}
+#dm{
+	position: absolute;
+	top:90px;
+	display: block;
+	float: left;
+	width: 50px;
+	height: 30px;
+	background-color: rgba(100,100,100,0.9);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+#he{
+	display: block;
+	position: relative;
+	left: 10px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+#bmrs{
+	display: block;
+	position: relative;
+	float: right;
+	color: #ccc;
+	font-size: 14px;
+}
+#fl{
+	width: 40px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 160px;
+	left: 10px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #f37600;
+	text-align: center;
+	line-height: 20px;
+}
+#qflb{
+	width: 210;
+	display: block;
+	position: absolute;
+	top: 160px;
+	left: 60px;
+	font-size: 12px;
+	color: #F37600;
+    font-weight: bold;
+}
+#th{
+	width: 40px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 10px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #bbb;
+	text-align: center;
+	line-height: 20px;
+}
+#dz{
+	width: 210;
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 60px;
+	font-size: 12px;
+	color: #bbb;
+    font-weight: bold;
+}
+#center1>.rmxf>ul>li>a>img{
+	width:248px;
+	height: auto;
+}
+/*热门新房结束*/
+/*报名动态开始*/
+#center1>.bmdt>span{
+	float: left;
+	width: 280px;
+	height: 30px;
+	display: block;
+	font-size: 18px;
+	color: #999;
+	font-weight: bold;
+	border-bottom: solid 2px #999;
+}
+#center1>.bmdt tr{
+	display: block;
+	width: 280px;
+	height: 30px;
+	background-color:#c9eeee ;
+}
+#center1>.bmdt td{
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+/*二手好房*/
+#center3>.eshf>span{
+	margin-left: 30px;
+	float: left;
+	width: 80px;
+	height: 20px;
+	display: block;
+	font-size: 18px;
+	color: #f37600;
+	font-weight: bold;
+}
+#center3>.eshf.p{
+	width: 50px;
+	height: 20px;
+	border: solid 1px #f00;
+}
+#center3>.eshf>#tab{
+	width: 60px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+}
+#center3>.eshf>#tab>a{
+	text-decoration: none;
+	color: #999;
+}	
+#center3>.eshf>a{
+	float: right;
+	text-decoration: none;
+	color: #ccc;
+}
+#center3>.eshf>p{
+	width: 800px;
+	height: 2px;
+	background: #f37600;
+	position: absolute;
+	margin-top: 30px;
+}
+#center3>.eshf>ul{
+	width: 800px;
+	height: auto;
+	float: left;	
+	margin-left: 0px;
+	display: block;
+	position: absolute;
+	top: 50px;
+}
+#center3>.eshf>ul>li{
+	width: 248px;
+    height: 250px;
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0px;
+	list-style-type: none;
+	margin-left: 25px;
+	border: solid 1px #ccc;
+}
+#center3>.eshf>ul>li>a>img{
+	width: 248px;
+	height: 200px;
+}
+#dm1{
+	position: absolute;
+	top:160px;
+	display: block;
+	float: left;
+	width: 50px;
+	height: 30px;
+	background-color: rgba(100,100,100,0.9);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+#center3>.eshf>ul>li>span{
+	color: #888;
+	font-size: 15px;
+}
+.jjrapp>span{
+	height: 30px;
+	color: #666;
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+	border-bottom:solid 2px #999 ;
+	
+}
+.jjrapp img{
+	width: 280px;
+	height: 249px;
+     margin-top: 20px;
+}

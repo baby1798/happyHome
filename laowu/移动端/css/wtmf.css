@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+#header{
+    width: 100%;
+    height: auto;
+}
+#header a,#center3 p a{
+	font-family: 宋体;
+	margin-left: 4%;
+	font-size: 2.6em;
+	color:#333;
+}
+#header span,#center3 p span{
+	margin-left: 28%;
+	font-size: 1.5em;
+	line-height: 2em;
+}
+#banner{
+	width: 100%;
+	height: auto;
+}
+#banner img{
+	width: 100%;
+	margin-bottom: 4%;
+}
+#center1{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 1.2em;
+	border: solid 2px #ddd;
+}
+#center1 p{
+	height: 1.3em;
+}
+#center1 h3{
+	font-size: 1.3em;
+	text-align: center;
+	color: #444;
+	margin-bottom: 30px;
+}
+#center1 ul{
+   margin-left: 4%;
+   padding-bottom: 20px;
+}
+#center1 ul li{
+	width: 94%;
+    padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: solid 1px #ddd;
+}
+#center1 ul li .center1_s1{
+	margin-right: 2%;
+}
+#center1 ul li input{
+	height: 2em;
+	width: 55%;
+	border:0;
+}
+#center1 ul li .center1_s2{
+	margin-top:10px;
+	display: block;
+	float: right;
+	width: 0px;
+	height: 0px;
+	border-top: solid 12px #444;
+	border-left: solid 12px #fff;
+	border-right: solid 12px #fff;
+	/*background-color: #fff;*/
+}
+button{
+	margin-top:5%;
+	width: 86%;
+	height: 3em;
+	margin-left: 7%;
+	background-color: #eb5e23;
+	color: #fff;
+	font-size: 1.1em;
+	border-radius: 6px;
+}
+#center2{
+	width: 100%;
+	height: auto;
+}
+#center2 ul li{
+	width: 100%;
+	text-align: center;
+	background-color: #fefefe;
+	padding-bottom: 4%;
+	border-bottom: solid 1px #eee;
+}
+#center2 ul li img{
+	width: 100%;
+}
+#center2 ul li .center2_p{
+	color: #f6a46a;
+}
+#center3{
+	position: absolute;
+	left: 100%;
+	top:0;
+	width: 100%;
+	height: auto;
+}
+#center3 #center3_p{
+   width: 90%;
+   height: 2.6em;
+   background-color: #f0f0f0;
+   margin-left: 5%;
+   border-radius: 8px;
+}
+#center3 #center3_p input{
+	width: 80%;
+	height: 2.6em;
+    background-color: #f0f0f0;
+    float: left;
+    border:0;
+    margin-left: 5%;
+}
+#center3 #center3_p img{
+	vertical-align: middle;
+}
+#center3 ul{
+	margin-left: 6%;
+}
+#center3 ul li{
+    width: 90%;
+    height: 2.4em;
+    line-height: 2.4em;
+    border-bottom: solid 1px #ddd;
+}
+#center3 ul li a{
+	color: #333;
+	font-size: 1.2em;
+}

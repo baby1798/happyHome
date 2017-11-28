@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>生活家</title>
+	<link rel="stylesheet" type="text/css" href="css/public2.css">
+    <link rel="stylesheet" type="text/css" href="css/public_style.css">
+    <link rel="stylesheet" type="text/css" href="css/public_style2.css">
+    <link rel="stylesheet" type="text/css" href="css/yjmf.css"/>
+	<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/yjmf.js"></script>
+</head>
+<body>
+	<div id="nav">
+	 <div class="co_d1">
+	  <img src="img/logo.png" class="na_img1">      
+	  <a href="#" id="na_a1">&nbsp;珠海</a><span class="na_sp1"></span>
+	  <div id="d1">
+        <span class="newhome">新房</span><span class="xl"></span>
+        <input class="inp" type="text" name="te" value="请输入小区名或楼盘名">
+        <a href="#" class="find">开始找房</a>
+	  </div>
+	  <ul id="na_u1" style="position:absolute; top:0px; left:340px">
+	    <li><a href="index2.html" class="u1_a1">首页</a></li><li><a href="#">本地新房</a></li><li><a href="#">二手房</a></li><li><a href="#">楼市动态</a></li><li><a href="#">城市合作</a></li>
+	  </ul>
+	 </div>
+	</div>
+	<div id="content">
+	 <div class="co_d1">
+	   <div id="bg">
+	   	<table>
+	   		<form action="#">
+	   		<tr><th colspan="2">委托人信息</th></tr>
+	   		<tr>
+	   			<td>您的姓名</td>
+	   			<td>
+	   				<input type="text" name="name" id="name"  placeholder="请填写"  required />
+	   				<input type="radio" name="sex" id="sex" value="" checked/>先生
+	   				<input type="radio" name="sex" id="sex" value="" />女士
+	   			</td>
+	   		</tr>
+	   		<tr>
+	   			<td>手机号玛</td>
+	   			<td colspan="2">
+	   				<input type="text" name="tel" id="tel"  placeholder="请填写"  required />
+	   			</td>
+	   		</tr>
+	   		<tr><th colspan="2">需求信息</th></tr>
+	   		<tr>
+	   			<td>购房总价</td>
+	   			<td colspan="2">
+	   				<select name="gold">
+	   					<option value="选择总价">选择总价</option>
+	   					<option value="50万以下">50万以下</option>
+	   					<option value="60万以下">60万以下</option>
+	   					<option value="70万以下">70万以下</option>
+	   					<option value="80万以下">80万以下</option>
+	   				</select>
+	   			</td>
+	   		</tr>
+	   		<tr>
+	   			<td>需求户型</td>
+	   			<td colspan="2">
+	   				<select name="house">
+	   					<option value="选择户型">选择户型</option>
+	   					<option value="一房">一房</option>
+	   					<option value="二房">二房</option>
+	   					<option value="三房">三房</option>
+	   					<option value="四房">四房</option>
+	   				</select>
+	   			</td>
+	   		</tr>
+	   		<tr>
+	   			<td>购房位置</td>
+	   			<td colspan="2">
+	   				<select name="adress">
+	   					<option value=""></option>
+	   					<option value="其他">其他</option>
+	   					<option value="青龙">青龙</option>
+	   					<option value="白虎">白虎</option>
+	   					<option value="皮皮虾">皮皮虾</option>
+	   					<option value="黄鳝">黄鳝</option>
+	   				</select>
+	   			</td>
+	   		</tr>
+	   		<tr>
+	   			<td>购房位置</td>
+	   			<td>
+	   				<select name="tf">
+	   					<option value="新房">新房</option>
+	   					<option value="二手房">二手房</option
+	   				</select>
+	   				
+	   			</td>
+	   			<td id="ts"></td>
+	   		</tr>
+	   		<tr>
+	   			<td colspan="2" style="text-align: center;">
+	   			  <input type="submit" name="sub" id="sub" value="立即委托" / style="background: #F37600; width: 300px; height: 30px; border: solid 2px #F37600;">
+	   		    </td>
+	   		</tr>
+	   		</form>
+	   	</table>
+	   </div>
+     </div>
+	</div>
+	<div id="footer">
+	 <div class="co_d1">
+	  <div id="about">
+	    <img src="img/public_01.jpg">
+	    <p class="about_p1">
+	     <span class="ab_sp1">About<br>关于幸福家</span><br>
+	     <a href="#">关于幸福家</a><a href="#">联系我们</a>
+	     <span class="ab_sp2">400-6622-100</span>
+	    </p>
+	  </div>
+	  <div id="focus">
+	    <img src="img/public_02.jpg">
+	    <p class="focus_p1">
+	      <span class="fo_sp1">Focus<br>关注我们</span><br>
+	      <a href="#" class="fo_a1"><img src="img/public_04.jpg"><br>关注微信</a>
+	      <a href="#" class="fo_a1"><img src="img/public_05.jpg"><br>关注微博</a>
+	    </p>
+	  </div>
+	  <div id="other">
+	     <img src="img/public_03.jpg">
+	     <p class="other_p1">
+	       <span class="ot_sp1">Other<br>开发&联盟</span><br>
+	       <a href="#">我是联盟商</a><a href="#">我是开发商</a>
+	    </p>
+	  </div>
+	  <p id="copy">Copyright(C) 2017 珠海幸福家网络科技股份有限公司 http://www.xfj100.com All rights reserved. <a href="#">粤ICP备13031356号-1</a></p>
+	 </div>
+	</div>
+	<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

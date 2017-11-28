@@ -1,0 +1,170 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+html{
+	/*font-size: 14px;*/
+	font-family: "微软雅黑";
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+#top{	
+	width: 100%;
+	height: auto;
+	background-color: #fa932c;
+	overflow: hidden;
+	padding: 0.8rem 0;
+}
+#top p{
+	width: 100%;
+	text-align: center;	
+}
+#top p img{
+	width: 40%;
+	height: auto;
+}
+#top h3{
+	width: 100%;
+	text-align: center;
+	font-size: 0.5rem;
+	color: #fff;
+	font-weight: 500;
+}
+#top h3 a{
+	color: #fff;
+	font-weight: 500;
+}
+#top ul{
+	width: 80%;
+	margin-top: 0.5rem;
+}
+#top ul li{
+	float: left;
+	color: #fff;
+	font-size: 0.4rem;
+	text-align: center;
+	width: 33%;
+}
+#top ul li a{
+	color: #fff;
+	font-size: 0.4rem;
+}
+#top ul li.cen{
+	font-size: 0.7rem;
+}
+#center{
+	width: 100%;
+	height: auto;
+	background-color: #e8e9e9;
+	padding: 0.2rem 0;
+}
+#center ul{
+	background-color: #fff;
+	margin-bottom: 0.2rem;
+}
+#center ul li{
+	vertical-align: middle;
+	width: 90%;
+	border-bottom: 1px solid #ccc;
+	padding: 0 5%;
+}
+#center ul li img{
+	vertical-align: middle;
+	margin-right: 0.1rem;
+}
+#center ul li a{
+	color: #333;
+	font-size: 0.4rem;
+	vertical-align: middle;
+	display: block;
+	line-height: 1rem;
+}
+#center ul li span{
+	float: right;
+	display: block;
+}
+#footer{
+	width: 100%;
+	height: auto;
+}
+#footer ul{
+	width: 94%;
+}
+#footer ul li{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+#footer ul li a{
+	padding-top: 0.7rem;
+	display: block;
+	font-size: 0.2rem;
+	color: #333;
+}
+#footer ul li a.foot_01{
+	background-image: url(../img/index01.png);
+	background-repeat: no-repeat;
+	background-position: center 0.1rem; 
+	background-size: 50%;
+}
+#footer ul li a.foot_02{
+	background-image: url(../img/index03.png);
+	background-repeat: no-repeat;
+	background-position: center 0.1rem; 
+	background-size: 50%;
+}
+#footer ul li a.foot_03{
+	vertical-align: top; 
+	margin-top: -0.9rem;
+}
+#footer ul li a.foot_03 img{
+	width: 80%;
+	height: auto;
+}
+#footer ul li a.foot_04{
+	background-image: url(../img/index06.png);
+	background-repeat: no-repeat;
+	background-position:center 0.1rem; 
+	background-size: 50%;
+}
+#footer ul li a.foot_05{
+	background-image: url(../img/index08.png);
+	background-repeat: no-repeat;
+	background-position:center 0.1rem; 
+	background-size: 50%;
+}
+#footer ul li a.foot_01:hover{
+	background-image: url(../img/index02.png);
+	background-repeat: no-repeat;
+	background-position: center 0.1rem; 
+	background-size: 50%;
+	color: #FA932C;
+}
+#footer ul li a.foot_02:hover{
+	background-image: url(../img/index04.png);
+	background-repeat: no-repeat;
+	background-position: center 0.1rem; 
+	background-size: 50%;
+	color: #FA932C;
+}
+#footer ul li a.foot_03:hover{
+	color: #FA932C;
+}
+#footer ul li a.foot_04:hover{
+	background-image: url(../img/index07.png);
+	background-repeat: no-repeat;
+	background-position: center 0.1rem; 
+	background-size: 50%;
+	color: #FA932C;
+}
+#footer ul li a.foot_05:hover{
+	background-image: url(../img/index09.png);
+	background-repeat: no-repeat;
+	background-position: center 0.1rem; 
+	background-size: 50%;
+	color: #FA932C;
+}

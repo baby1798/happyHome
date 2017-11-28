@@ -1,0 +1,42 @@
+body{
+	background-color: #e9dfe1;
+}
+*{
+	margin: 0 auto;
+}
+#show{
+	width: 100%;
+	height: auto;
+}
+#p1{
+	width: 100%;
+	background:#ede8e9;
+	padding:3% 2px;
+    text-align: center;
+	margin-top: 0px;
+}
+#p1 a:nth-child(1){
+	font-size: 1em;
+	font-weight: bold;
+   padding-left: 5px;
+    float: left;
+    text-decoration: none;
+}
+#div1{
+	width: 88%;
+	height: auto;
+	background-color: #fff;
+	padding: 3% 20px;
+}
+input{
+	margin-top: 10px;
+	border:0px;
+}
+.cla{
+	width: 0px;
+	height: 0px;
+	display: inline-block;
+	border-top:solid 7px #000;
+	border-left:solid 7px #fff;
+	border-right:solid 7px #fff;
+}

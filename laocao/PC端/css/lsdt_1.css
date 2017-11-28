@@ -1,0 +1,209 @@
+/**{
+	padding: 0;
+	margin: 0;
+}*/
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+#nav{
+	border-bottom: 1px solid #ccc;
+}
+#footer{
+	border-top: 1px solid #ccc;
+	top: 3102px;
+}
+#centent{
+	height: 3000px;
+	width: 800px;
+}
+#center{
+	position: absolute;
+	left: 50%;
+	margin-left: -610px;
+}
+#center p{
+	width: 780px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #333;
+}
+#center p.leader{
+	margin-top: 30px;
+	font-size: 14px;
+}
+#center p.leader span{
+	color: #FF5F15;
+	font-size: 14px;
+}
+#center h3{
+	margin-top: 20px;
+	font-weight: 400;
+}
+#center p.time{
+	color: #888;
+	font-size: 14px;
+	margin-top: 5px;
+}
+#center p.time img{
+	float: right;
+}
+#center p.main{
+	width: 780px;
+	height: 55px;
+	background-image: url(../img/lsdt0011.jpg);
+	padding-left: 20px;
+	line-height:56px;
+	font-size: 14px;
+	margin-top: 20px;
+}
+#center p.main img{
+	margin-right: 10px;
+}
+#center p.red{
+	color: #d00;
+	margin-top: 0px;
+}
+#center p.grey{
+	color:rgb(89,89,89);
+	margin-top: 0px;
+	margin-top: 20px;
+}
+#center #news{
+	margin-top: 50px;
+}
+#center #news h3{
+	color: #FF5F15;
+	font-weight: 500;
+	border-bottom: 1px solid #FF5F15;
+}
+#news ul{
+	margin-top: 30px;
+}
+#news ul li{
+	margin-bottom: 5px;
+	color: #777;
+	font-weight: bold;
+}
+#news ul li a{
+	color: #333;
+	font-weight: 500;
+	margin-left: 10px;
+	font-size: 15px;
+}
+#news ul li a:hover{
+	color: #FF5F15;
+}
+#news ul li span{
+	float: right;
+	color: #777;
+}
+#conRight{
+	width: 280px;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 870px;
+}
+#conRight #rgTop{
+	width: 280px;
+	height: 80px;
+	width: 100%;
+}
+#conRight #rgTop>p{
+	width: 100%;
+	margin-top: 40px;
+	line-height: 40px;
+	padding:0 20px 0 0;
+	font-size: 20px;
+	border-bottom: 2px solid #ccc;
+}
+#conRight #rgTop ul{
+	position: absolute;
+	top: 80px;
+	height: 60px;
+}
+#conRight #rgTop>ul>li{
+	width: 280px;
+	height: 60px;
+	padding: 15px 0;
+	border-bottom:1px solid #ccc ;
+	position: relative;
+}
+#conRight #rgTop>ul>li>img{
+	width: 120px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+}
+#conRight #rgTop>ul>li>span{
+	background-color: #ebebeb;
+	color: #333;
+	padding: 2px;
+	font-size: 14px;
+}
+#conRight #rgTop>ul>li>h3{
+	color: #333;
+	font-weight: 500;
+	font-size: 14px;
+	position: absolute;
+	left: 170px;
+	*left: 180px;
+	top: 15px;
+	float: right;
+}
+#conRight #rgTop>ul>li>p{
+	font-size: 14px;
+	color: #333;
+	margin-top: 2px;
+}
+#conRight .ad{
+	width: 280px;
+	height: auto;
+	position: absolute;
+	top:190px;	
+}
+#conRight .ad img{
+	width: 280px;
+	height: 305px;
+}
+#conRight #rgFooter{
+	position: absolute;
+	top: 500px;
+}
+#rgFooter p{
+	width: 280px;
+	margin-top: 40px;
+	line-height: 40px;
+	padding:0 20px 0 0;
+	font-size: 20px;
+	border-bottom: 2px solid #ccc;
+}
+#rgFooter ul{
+	padding: 20px 0;
+}
+#rgFooter ul li{
+	margin-bottom: 10px;
+}
+#rgFooter ul li span{
+	background-color: #aeaeae;
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+}
+#rgFooter ul li span.bg{
+	background-color: #FF5F15;
+	color: #fff;
+}
+#rgFooter ul li a{
+	color: #333;
+	font-size: 14px;
+	margin-left: 5px;
+}
+#rgFooter ul li a:hover{
+	color: #FF5F15;
+}
